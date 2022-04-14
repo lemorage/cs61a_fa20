@@ -1,7 +1,0 @@
-# Byte-compiled files
-__pycache__/
-*$py.class
-build/
-
-# OS generated files #
-.*
