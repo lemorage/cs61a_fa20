@@ -10,6 +10,10 @@ PLAYER_NAME = 'Almighty Lemorage'  # Change this line!
 
 
 def final_strategy(score, opponent_score):
+    """
+    Never reach 0.6, the highest ever seen win rate is 0.5805,
+    but I am dizzy...
+    """
     if score <= 106:
         return extra_turn_strategy(score, opponent_score)     
     else:
