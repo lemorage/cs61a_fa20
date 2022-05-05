@@ -151,13 +151,14 @@ def count_coins(total):
 
 from operator import sub, mul
 
-#################################################
+################################################################
+# Just to write higher-order functions using lambda expressions
 # def make_anonymous_factorial():
     # def fact(n, fact):
         # if n == 1: return 1
         # else: return mul(n, fact(n-1, fact))
     # return lambda n: fact(n, fact)
-#################################################
+################################################################
 
 def make_anonymous_factorial():
     """Return the value of an expression that computes factorial.
@@ -169,5 +170,7 @@ def make_anonymous_factorial():
     >>> check(HW_SOURCE_FILE, 'make_anonymous_factorial', ['Assign', 'AugAssign', 'FunctionDef', 'Recursion'])
     True
     """
-    return lambda n : (lambda n, f : 1 if n == 1 else mul(n, f(sub(n, 1), f)))(n, lambda n, f : 1 if n == 1 else mul(n, f(sub(n, 1), f)))
+    return lambda n : (lambda f: f(n, f))(lambda n, fact: 1 if n == 1 else mul(n, fact(sub(n, 1), fact)))
+    # Another way to write this...
+    # return lambda n : (lambda n, f : 1 if n == 1 else mul(n, f(sub(n, 1), f)))(n, lambda n, f : 1 if n == 1 else mul(n, f(sub(n, 1), f)))
 
