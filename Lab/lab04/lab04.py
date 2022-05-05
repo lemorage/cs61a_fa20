@@ -145,12 +145,19 @@ def add_chars(w1, w2):
     ...       ['For', 'While', 'Set', 'SetComp']) # Must use recursion
     True
     """
-    def check(p1, p2, str): 
-        if p1 == len(w1): return str
-        elif w1[p1] == str[p2]: # if == then delete from w2
-            return check(p1+1, p2, str[:p2]+str[p2+1:])
-        else:
-            return check(p1, p2+1, str) # check w1[0..len(w1)-1] from left to right in w2
-    return check(0, 0, w2)
+    if len(w1) == 0:
+        return w2
+    elif w1[0] == w2[0]:
+        return add_chars(w1[1:], w2[1:])
+    else:
+        return w2[0] + add_chars(w1, w2[1:])
+    # ----------- Using higher order functions ------------
+    # def check(p1, p2, str): 
+    #     if p1 == len(w1): return str
+    #     elif w1[p1] == str[p2]: # if == then delete from w2
+    #         return check(p1+1, p2, str[:p2]+str[p2+1:])
+    #     else:
+    #         return check(p1, p2+1, str) # check w1[0..len(w1)-1] from left to right in w2
+    # return check(0, 0, w2)
     
 
