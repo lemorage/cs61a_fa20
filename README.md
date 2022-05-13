@@ -29,6 +29,7 @@ And this repo just records how the process happens along the way for the sake of
 ### Project
 * Project01: Hog
 * Project02: Hog Contest
+* Project03: Cats
 
 ### Examination
 * Midterm01
