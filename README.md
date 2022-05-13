@@ -25,6 +25,8 @@ And this repo just records how the process happens along the way for the sake of
 * Lab01: Variables & Functions, Control
 * Lab02: Higher-Order Functions, Lambda Expressions
 * Lab04: Recursion, Tree Recursion, Python Lists
+* Lab05: Data Abstraction, Trees
+* Lab06: Nonlocal, Mutability
 
 ### Project
 * Project01: Hog
