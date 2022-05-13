@@ -95,20 +95,17 @@ def diff(f, g):
 def mystery(n):
    return n
 
-# (a) None of these. 
-# Because constant(2) returns a function called ignore in the local frame.
+# (a) ... two 
+# constant(2) and two are both functions with identical behavior (return 2).
 
-# (b) diff(constant, constant)
-# Because they both returns a lambda function
+# (b) ... constant(2)
+# Ditto.
 
-# (c) diff(constant, constant)
-# Ditto
+# (c) ... constant(0)
+# Ditto.
 
-# (d) lambda y: abs(mystery(y))
-# diff(mystery, diff(mystery, mystery)) 
-# is identical to
-# lambda z: abs(mystery(z))
-
+# (d) ... lambda y: abs(mystery(y))
+# After simplifying, the given function is actually lambda z: abs(mystery(z) - 0).
 
 
 # 3. Please Register to Vote
