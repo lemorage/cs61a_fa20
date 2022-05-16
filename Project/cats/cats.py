@@ -185,7 +185,8 @@ def time_per_word(times_per_player, words):
     # BEGIN PROBLEM 9
     times = []
     for n in range(len(times_per_player)):
-        times.append([times_per_player[n][i+1] - times_per_player[n][i] for i in range(len(times_per_player[n])-1)])
+        each = times_per_player[n]
+        times.append([each[i+1] - each[i] for i in range(len(each)-1)])
     return game(words, times)
     # END PROBLEM 9
 
