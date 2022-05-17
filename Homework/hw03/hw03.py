@@ -310,17 +310,17 @@ def check_par():
     >>> lower_bound(x) != lower_bound(y) or upper_bound(x) != upper_bound(y)
     True
     """
-    # Just make sure mul_interval(r1, r2) != interval(1, 1)
-    r1 = interval(3, 1) # Replace this line!
+    r1 = interval(1, 1) # Replace this line!
     r2 = interval(1, 3) # Replace this line!
     return r1, r2
 
 
 def multiple_references_explanation():
-    return """Yeah, except for the multiple reference problem...
-            par2 also makes sure that there will be no r1 and r2
-            under 0, but par1 can only ensure that the result of
-            mul_interval and add_interval are greater than 0."""
+    return """The multiple reference problem...
+    Because the mul_interval function assumes that
+    x and y should be different numbers, but in fact
+    if they're the same interval, they're really inferring
+    to the same number, which will return a totally wrong answer."""
 
 
 def quadratic(x, a, b, c):
