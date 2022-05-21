@@ -113,9 +113,11 @@ def max_subseq(n, t):
     """
     if not n or not t: return 0
     else:
-        with_ones_digits = max_subseq(n//10, t-1) * 10 + n % 10
-        without_ones_digits = max_subseq(n//10, t)
-        return with_ones_digits if with_ones_digits > without_ones_digits else without_ones_digits
+        last_digit = n % 10
+        rest = n // 10
+        keep_last_digit = max_subseq(rest, t - 1) * 10 + last_digit
+        drop_last_digit = max_subseq(rest, t)
+        return max(keep_last_digit, drop_last_digit)
 
 
 
