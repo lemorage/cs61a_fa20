@@ -1,14 +1,14 @@
 # 1. In-N-Out
 
 ############################################################
-# Expression 			   | Interactive Output 		   #
+# Expression 			   | Interactive Output	   #
 ############################################################
-# print(re(1+2), print(4)) | 3 3\n 4\n None\n None 		   #
-# cheap(3)				   | 3 3\n None\n 6 		  	   #
-# cheap(seat(2))		   | 4 4\n None\n 8 		  	   #
-# car(1)(double)(pow)	   | 25 		  				   #
-# double(print(1))		   | 1\n None\n 5 None\n 6 		   #
-# car(0)(seat)(add)		   | 0\n 5 None\n 11 						   #
+# print(re(1+2), print(4)) 	   | 3 3\n 4\n None\n None #
+# cheap(3)			   | 3 3\n None\n 6 	   #
+# cheap(seat(2))		   | 4 4\n None\n 8	   #
+# car(1)(double)(pow)	 	   | 25 		   #
+# double(print(1))		   | 1\n None\n 5 None\n 6 #
+# car(0)(seat)(add)		   | 0\n 5 None\n 11 	   #
 ############################################################
 
 
