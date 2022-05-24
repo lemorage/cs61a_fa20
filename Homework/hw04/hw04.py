@@ -134,10 +134,11 @@ def permutations(seq):
     """
     if not seq:
         yield []
-    else:
-        for perm in permutations(seq[1:]):
-            for i in range(len(seq)):
-                yield perm[:i] + [seq[0]] + perm[i:]
+    for i in range(len(seq)):
+        start = [seq[i]]
+        rest = [seq[j] for j in range(len(seq)) if j != i]
+        yield from [start + rest for rest in permutations(rest)]
+
 
 
 def make_joint(withdraw, old_pass, new_pass):
