@@ -18,6 +18,9 @@ And this repo just records how the process happens along the way for the sake of
 ### Homework
 * HW01: Variables & Functions, Control
 * HW02: Recursion
+* HW03: Trees, Data Abstraction 
+* HW04: Nonlocal, Iterators
+* HW05: Object-Oriented Programming, Linked Lists, Trees
 
 ### Lab
 
