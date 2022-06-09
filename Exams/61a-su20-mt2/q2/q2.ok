@@ -1,0 +1,22 @@
+{
+  "name": "q2",
+  "endpoint": "cal/okpy-test/su00/example_exam_q2",
+  "decryption_keypage": "https://links.cs61a.org/exam_demo_keys",
+  "src": [
+    "q2.py"
+  ],
+  "tests": {
+    "tests/q2.py": "ok_test"
+  },
+  "default_tests": [
+    "q2"
+  ],
+  "protocols": [
+    "restore",
+    "file_contents",
+    "analytics",
+    "unlock",
+    "grading",
+    "backup"
+  ]
+}

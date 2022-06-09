@@ -1,0 +1,22 @@
+{
+  "name": "q3",
+  "endpoint": "cal/okpy-test/su00/example_exam_q3",
+  "decryption_keypage": "https://links.cs61a.org/exam_demo_keys",
+  "src": [
+    "q3.py"
+  ],
+  "tests": {
+    "tests/q3.py": "ok_test"
+  },
+  "default_tests": [
+    "q3"
+  ],
+  "protocols": [
+    "restore",
+    "file_contents",
+    "analytics",
+    "unlock",
+    "grading",
+    "backup"
+  ]
+}
