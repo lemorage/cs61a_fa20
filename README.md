@@ -21,6 +21,8 @@ And this repo just records how the process happens along the way for the sake of
 * HW03: Trees, Data Abstraction 
 * HW04: Nonlocal, Iterators
 * HW05: Object-Oriented Programming, Linked Lists, Trees
+* HW06: Scheme
+* HW07: Scheme Lists
 
 ### Lab
 
