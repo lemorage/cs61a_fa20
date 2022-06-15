@@ -32,6 +32,10 @@ And this repo just records how the process happens along the way for the sake of
 * Lab04: Recursion, Tree Recursion, Python Lists
 * Lab05: Data Abstraction, Trees
 * Lab06: Nonlocal, Mutability
+* Lab07: Object-Oriented Programming, Iterators
+* Lab08: Linked Lists, Mutable Trees
+* Lab09: Midterm Review
+* Lab10: Scheme
 
 ### Project
 * Project01: Hog
