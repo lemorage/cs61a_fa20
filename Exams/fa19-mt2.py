@@ -42,7 +42,7 @@ def g(y):
     		h = lambda x: y
     		k = 1
     	return [-x[0]] + h(x[k:])
-    	return h(y)
+    return h(y)
 
 py = {3: {5: [7]}}
 thon = {5: 6, 7: py}
