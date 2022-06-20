@@ -36,6 +36,8 @@ And this repo just records how the process happens along the way for the sake of
 * Lab08: Linked Lists, Mutable Trees
 * Lab09: Midterm Review
 * Lab10: Scheme
+* Lab11: Interpreters
+* Lab12: SQL
 
 ### Project
 * Project01: Hog
