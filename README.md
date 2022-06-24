@@ -40,6 +40,7 @@ And this repo just records how the process happens along the way for the sake of
 * Lab10: Scheme
 * Lab11: Interpreters
 * Lab12: SQL
+* Lab13: More SQL
 
 ### Project
 * Project01: Hog
