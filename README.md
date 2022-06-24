@@ -23,6 +23,8 @@ And this repo just records how the process happens along the way for the sake of
 * HW05: Object-Oriented Programming, Linked Lists, Trees
 * HW06: Scheme
 * HW07: Scheme Lists
+* HW08: Scheme
+* HW09: SQL
 
 ### Lab
 
