@@ -15,6 +15,11 @@ So the process of failure, the process of struggling, the process of taking hour
 And this repo just records how the process happens along the way for the sake of myself...
 
 ## Structure of this repo
+
+### Discussion
+
+Disc01-14
+
 ### Homework
 * HW01: Variables & Functions, Control
 * HW02: Recursion
@@ -43,10 +48,6 @@ And this repo just records how the process happens along the way for the sake of
 * Lab13: More SQL
 * Lab14: Final Review
 
-### Discussion
-
-Disc01-14
-
 ### Project
 * Project01: Hog
 * Project02: Hog Contest
@@ -59,3 +60,6 @@ Disc01-14
 * Midterm02
 * Final
 
+## Timeline
+
+From 3.6.2022 to 7.2.2022
