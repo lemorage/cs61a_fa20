@@ -41,6 +41,11 @@ And this repo just records how the process happens along the way for the sake of
 * Lab11: Interpreters
 * Lab12: SQL
 * Lab13: More SQL
+* Lab14: Final Review
+
+### Discussion
+
+Disc01-14
 
 ### Project
 * Project01: Hog
@@ -52,4 +57,5 @@ And this repo just records how the process happens along the way for the sake of
 ### Exams
 * Midterm01
 * Midterm02
+* Final
 
